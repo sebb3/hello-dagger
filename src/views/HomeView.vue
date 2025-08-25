@@ -10,6 +10,6 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <style scoped>
 main {
-  background-color: blue;
+  background-color: green;
 }
 </style>
