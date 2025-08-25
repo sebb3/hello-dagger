@@ -1,0 +1,19 @@
+{
+  "name": "hello-dagger",
+  "engineVersion": "v0.18.14",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "github-issue",
+      "source": "github.com/kpenfound/dag/github-issue",
+      "pin": "639e56e34944f0f8163acefc89707e57a3771f4a"
+    },
+    {
+      "name": "workspace",
+      "source": ".dagger/workspace"
+    }
+  ],
+  "source": ".dagger"
+}
